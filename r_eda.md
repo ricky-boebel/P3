@@ -163,7 +163,7 @@ ggplot(aes(year,xpct),data=subset(fgl,tm=='League Total'))+
 
 ```
 
-We see a dractic decrease in correlation when we look at extra point correlation compared to time. Looking at the above figure we see that there is a large drop in the data in 1974, after this decrease kickers seem to make large improvements year after year.
+We see a drastic decrease in correlation when we look at extra point correlation compared to time. Looking at the above figure we see that there is a large drop in the data in 1974, after this decrease kickers seem to make large improvements year after year.
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 cor.test(fgt$year,fgt$xpct)
